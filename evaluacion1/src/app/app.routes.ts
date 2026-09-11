@@ -1,42 +1,36 @@
 import { Routes } from '@angular/router';
 
-import { Frutas } from './components/frutas/frutas';
-import { Verduras } from './components/verduras/verduras';
-import { FrutosSecos } from './components/frutos-secos/frutos-secos';
+import { Actividades } from './components/actividades/actividades';
+import { Inscripcion } from './components/inscripcion/inscripcion';
+import { Inicio } from './components/inicio/inicio';
 import { Contacto } from './components/contacto/contacto';
-import { HacerPedido } from './components/hacer-pedido/hacer-pedido';
 
 export const routes: Routes = [
 
   {
     path: '',
-    redirectTo: 'frutas',
+    redirectTo: 'inicio',
     pathMatch: 'full'
   },
 
   {
-    path: 'frutas',
-    component: Frutas
+    path: 'inicio',
+    component: Inicio
   },
 
   {
-    path: 'verduras',
-    component: Verduras
+    path: 'actividades',
+    component: Actividades
   },
 
   {
-    path: 'frutos-secos',
-    component: FrutosSecos
+    path: 'inscripcion',
+    component: Inscripcion
   },
 
   {
     path: 'contacto',
     component: Contacto
-  },
-
-  {
-    path: 'pedido',
-    component: HacerPedido
   }
 
 ];

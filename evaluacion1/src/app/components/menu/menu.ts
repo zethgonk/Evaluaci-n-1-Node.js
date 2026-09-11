@@ -1,10 +1,18 @@
 import { Component } from '@angular/core';
+import {
+  RouterLink,
+  RouterLinkActive
+} from '@angular/router';
 
 @Component({
-  imports: [],
   selector: 'app-menu',
-  styleUrl: './menu.css',
+  imports: [
+    RouterLink,
+    RouterLinkActive
+  ],
   templateUrl: './menu.html',
+  styleUrl: './menu.css'
 })
-export class Menu{
-mensaje: string = 'Menú';}
+export class Menu {
+
+}

@@ -1,11 +1,16 @@
 import { Component } from '@angular/core';
 
 @Component({
-  imports: [],
   selector: 'app-cabecera',
-  styleUrl: './cabecera.css',
+  imports: [],
   templateUrl: './cabecera.html',
+  styleUrl: './cabecera.css'
 })
-export class Cabecera{
-  mensaje: string = 'Contacto';
+export class Cabecera {
+
+  titulo: string = 'Conecta Estudiante';
+
+  subtitulo: string =
+    'Un sistema digital sencillo e intuitivo para la escuela';
+
 }

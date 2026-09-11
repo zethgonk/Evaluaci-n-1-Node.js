@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrl: './inicio.css',
   templateUrl: './inicio.html',
 })
-export class Inicio{
-mensaje: string = 'Inicio';}
+export class Inicio {}

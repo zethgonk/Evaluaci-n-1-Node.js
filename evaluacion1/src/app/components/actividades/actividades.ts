@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrl: './actividades.css',
   templateUrl: './actividades.html',
 })
-export class Actividades{
-mensaje: string = 'Actividades';}
+export class Actividades {}
