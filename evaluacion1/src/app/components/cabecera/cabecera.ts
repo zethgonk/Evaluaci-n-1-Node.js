@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 })
 export class Cabecera {
 
-  titulo: string = 'Conecta Estudiante';
+  titulo: string = 'CPH: Conecta Estudiante';
 
   subtitulo: string =
-    'Un sistema digital sencillo e intuitivo para la escuela';
+    'Un sistema digital sencillo e intuitivo para el Colegio Padre Hurtado';
 
 }
