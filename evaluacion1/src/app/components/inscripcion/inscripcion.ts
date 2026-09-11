@@ -6,4 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './inscripcion.css',
   templateUrl: './inscripcion.html',
 })
-export class Inscripcion {}
+export class Inscripcion{
+mensaje: string = 'Inscripción';}
